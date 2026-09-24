@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        background: #147fd0;
+        color: rgb(236, 238, 240);
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 50px;
+        font-family: Climate Crisis;
+        letter-spacing: 0.2cm;
+      }
+      h2 {
+        text-align: end;
+        font-size: 20px;
+        font-family: Climate Crisis;
+        letter-spacing: 0.1cm;
+        width: 300px;
+        height: 15px;
+        background-color: #4da1f7; /* цвет прямоугольника */
+        padding: 20px; /* отступы внутри */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .avatar {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      main {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      footer {
+        height: 100px;
+        background-color: #147fd0;
+        font-size: 50px;
+        font-family: Climate Crisis;
+        letter-spacing: 0.2cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">FlexTeam</div>
+      <h2>Войти</h2>
+    </header>
+    <main>
+      <div class="card">
+        <img src="147144.png" />
+        <h2>Александр Сергеевич Пушкин</h2>
+      </div>
+    </main>
+    <footer>
+      <div class="logo">FlexTeam</div>
+    </footer>
+  </body>
+</html>
